@@ -21,7 +21,7 @@ const markup = images
     width="150"></li>`).join("");
 
  list.insertAdjacentHTML("beforeend", markup);
-console.log(list);
+
 
 
 
