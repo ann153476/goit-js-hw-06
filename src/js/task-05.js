@@ -1,6 +1,10 @@
 
 function actionInput(event){
-    mySpan.innerHTML =`${event.target.value}`;
+    if(event.target.value){
+        mySpan.innerHTML =`${event.target.value}`;
+   } else{
+       mySpan.innerHTML =`Anonymous`;
+   }
 }
 
 
